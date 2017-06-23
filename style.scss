@@ -1,0 +1,47 @@
+// Variables
+// Colors
+$text-color: #FFFFFF;
+$footer-bg-color: #65698E;
+$bg-color: #EEEEEE;
+
+// Global tags
+body{
+  background: url("https://image.ibb.co/hc1iV5/20160922_190805.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+font-family: 'Crimson Text', serif;
+font-family: 'Pangolin', cursive;
+font-family: 'Spectral', serif;
+}
+header {
+  margin: 10px;
+  padding-top: 10px;
+  & h1 {
+    font-size: 30px;
+  }
+}
+main {
+  margin: 20px;
+}
+footer {
+  background-color: $footer-bg-color;
+  height: 50px;
+  margin: 10px -15px 0px -15px;
+    & div {
+      line-height: 50px;
+      vertical-align: middle;
+      color: $text-color;
+    }
+}
+
+// Classes & Ids
+#get-inspired {
+  margin: 20% 15% 20% 15%;
+  background-color: $bg-color;
+}
+#inspiring-message {
+  min-height: 150px;
+}
