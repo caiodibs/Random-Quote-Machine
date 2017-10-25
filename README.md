@@ -1,4 +1,4 @@
-Random Quote Machine
+# Random Quote Machine
 
 Shows great motivational quotes to shine your day.
 Get inspired!
